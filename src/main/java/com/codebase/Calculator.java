@@ -2,16 +2,16 @@ package com.codebase;
 
 public class Calculator {
 
-    public int Add(int firstNumber, int secondNumber) {
+    public static int add(int firstNumber, int secondNumber) {
         return (firstNumber + secondNumber);
     }
-    public int Subtract(int firstNumber, int secondNumber) {
+    public static int subtract(int firstNumber, int secondNumber) {
         return (firstNumber - secondNumber);
     }
-    public int Multiply(int firstNumber, int secondNumber) {
+    public static int multiply(int firstNumber, int secondNumber) {
         return (firstNumber * secondNumber);
     }
-    public double Divide(double firstNumber, double secondNumber) {
+    public static double divide(double firstNumber, double secondNumber) {
         return (firstNumber / secondNumber);
     }
 }
