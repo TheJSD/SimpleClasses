@@ -1,5 +1,4 @@
 import com.codebase.Calculator;
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -8,6 +7,11 @@ public class CalculatorTest {
     public void canAdd() {
         int result = Calculator.add(2, 2);
         assertEquals(4, result);
+    }
+    @Test
+    public void canAddDouble(){
+        double result = Calculator.add(1.5, 2.7);
+        assertEquals(4.2,result, 0.0);
     }
     @Test
     public void canSubtract() {
